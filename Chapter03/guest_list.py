@@ -14,6 +14,7 @@ print("I have just been informed, that we have a bigger table.")
 guests.insert(0, "Zagreus")
 guests.insert(3, "Gaia")
 guests.append("Ceres")
+print(f"I will have {len(guests)} guests.")
 for guest in guests:
     print(f"Hello dear {guest.title()}, \nI'd like to invite you to dinner.")
 

@@ -1,0 +1,13 @@
+things_list = ["schecter", "esp", "ibanez", "strandberg", "aristides", "abasi concepts"]
+print(sorted(things_list))
+print(sorted(things_list, reverse=True))
+print(len(things_list))
+things_list.append("fender")
+things_list.insert(0, "gibson")
+removed_brand = things_list.pop()
+print(removed_brand)
+things_list.reverse()
+print(things_list)
+things_list.sort()
+print(things_list)
+things_list.remove("esp")
