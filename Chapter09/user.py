@@ -1,6 +1,3 @@
-from privileges import Privileges
-
-
 class User:
     """Simple user class."""
 

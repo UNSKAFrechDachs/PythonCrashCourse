@@ -1,5 +1,5 @@
-from user import User
-from admin import Admin
+from Chapter09.user import User
+from Chapter09.admin import Admin
 
 my_user = User("Max",
                "Mustermann",

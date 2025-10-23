@@ -1,4 +1,5 @@
-from user import User, Privileges
+from user import User
+from privileges import Privileges
 
 
 class Admin(User):
